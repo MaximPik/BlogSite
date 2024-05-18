@@ -9,10 +9,10 @@
 - Написание API, используя DRF, для взаимодействия с сайтом из сторонних источников.
 
 Примеры API запросов (GET):
-- http://localhost:8000/api/v1/token/ - получить JWT токен.
-- http://localhost:8000/api/v1/posts/ - список всех постов.
-- http://localhost:8000/api/v1/posts/{post_id}/ - конкретный пост.
-- http://localhost:8000/api/v1/posts/{post_id}/comments/ - список комментариев к конкретному посту.
-- http://localhost:8000/api/v1/posts/{post_id}/comments/{comments_id} - конкретный комментарий.
-- http://localhost:8000/api/v1/follow/ - список всех подписок и подписчиков.
-- http://localhost:8000/api/v1/groups/ - список всех групп.
+- /api/v1/token/ - получить JWT токен.
+- /api/v1/posts/ - список всех постов.
+- /api/v1/posts/{post_id}/ - конкретный пост.
+- /api/v1/posts/{post_id}/comments/ - список комментариев к конкретному посту.
+- /api/v1/posts/{post_id}/comments/{comments_id} - конкретный комментарий.
+- /api/v1/follow/ - список всех подписок и подписчиков.
+- /api/v1/groups/ - список всех групп.
