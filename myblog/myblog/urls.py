@@ -40,6 +40,8 @@ urlpatterns = [
     path('about-spec/', views.flatpage, {'url': '/about-spec/'}, name='spec'),
     # импорт правил из приложения posts
     path("", include("posts.urls")),
+    path("api/", include("api.urls")),
+    # path('api/v1/api-token-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]
 
 if settings.DEBUG:
