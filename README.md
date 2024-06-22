@@ -69,5 +69,10 @@
 - /api/v1/posts/{post_id}/comments/{comments_id} - конкретный комментарий (GET).
 - /api/v1/follow/ - список всех подписок и подписчиков (GET).
 - /api/v1/groups/ - список всех групп (GET).
+## Тестирование
+Тесты для проекта можно запустить с помощью
+  ```sh
+  python manage.py test
+  ``` 
 ## Лицензия
 Этот проект лицензирован под BSD 3-Clause License - подробности см. в файле [LICENSE](LICENSE).
